@@ -1,13 +1,18 @@
 # Material Pager Sliding Tab Strip for Xamarin.Android
 
-** This library has now been deprecated by the new Android Support Design Library. Please see the full component for a sample: https://components.xamarin.com/view/xamandroidsupportdesign**
+** This library has now been deprecated by the new Android Support Design Library. Please see the full component for a sample: https://components.xamarin.com/view/xamandroidsupportdesign **
 
 Interactive paging indicator widget, compatible with the `ViewPager` from the
 Android Support Library.
 
-**This library requires Support v7 AppCompat Version 22**
+~~**This library requires Support v7 AppCompat Version 22**~~
 
-**Must set Compile with API 21 in VS or XS**
+~~**Must set Compile with API 21 in VS or XS**~~
+
+**This fork has been updated to work with the latest AppCompat library**
+
+This does _not_ mean you should use this as i did it as a stopgap measure to keep my project compiling. 
+Do _not_ use this in a new project, please use the Support Design library/component instead as i will _not_ update this beyond my needs.
 
 **You must add Mono.Android.Export.dll to your References**
 
